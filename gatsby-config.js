@@ -1,19 +1,7 @@
 module.exports = {
   siteMetadata: {
-      title: `poworev.com`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `poworev.com`,
+    siteUrl: `https://www.poworev.com`,
   },
-  plugins: [{
-    resolve: 'gatsby-plugin-google-analytics',
-    options: {
-      "trackingId": ""
-    }
-  }, "gatsby-transformer-remark", {
-    resolve: 'gatsby-source-filesystem',
-    options: {
-      "name": "pages",
-      "path": "./src/pages/"
-    },
-    __key: "pages"
-  }]
+  plugins: [`gatsby-plugin-postcss`],
 };
