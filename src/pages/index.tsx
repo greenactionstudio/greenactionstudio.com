@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 import Footer from "../components/common/Footer";
 import FeatureGrid from "../components/marketing/FeatureGrid";
@@ -15,6 +16,16 @@ export default function Index() {
 
   return (
     <div className="relative overflow-hidden">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>EV Charging Software | Green Action Studio</title>
+        <meta
+          name="description"
+          content="We make managing EV
+            charging easy. Whether you have a single plug or a nationwide
+            charging network, we provide the tools you need to get things done."
+        ></meta>
+      </Helmet>
       <main>
         <HomepageHero onClick={onClick} />
         {/* Partner Solutions */}

@@ -3,5 +3,5 @@ module.exports = {
     title: `greenactionstudio.com`,
     siteUrl: `https://www.greenactionstudio.com`,
   },
-  plugins: [`gatsby-plugin-postcss`],
+  plugins: [`gatsby-plugin-postcss`, `gatsby-plugin-react-helmet`],
 };
