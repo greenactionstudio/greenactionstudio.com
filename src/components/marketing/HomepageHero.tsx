@@ -40,11 +40,14 @@ const HomepageHero: React.FC<Props> = ({ onClick }) => (
               onClick={onClick}
               className="inline-flex items-center rounded-md bg-primary-500 py-3 px-4 font-medium text-white shadow hover:bg-primary-600 focus:bg-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2 focus:ring-offset-gray-900"
             >
-              <ChatAlt2Icon className="mr-2 h-5" aria-hidden="true" />
+              <ChatAlt2Icon
+                className="mr-2 hidden h-5 lg:block"
+                aria-hidden="true"
+              />
               Speak with Our EV Charging Software Team
             </button>
           </div>
-          <div className="grid grid-cols-3 gap-32 pt-20">
+          <div className="grid grid-cols-1 gap-16 pt-20 text-center lg:grid-cols-3 lg:gap-32">
             {statistics.map((stat, index) => (
               <div
                 key={index}
