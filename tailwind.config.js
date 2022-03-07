@@ -1,12 +1,17 @@
+const colors = require("tailwindcss/colors");
+
 module.exports = {
-  content: ['./src/**/*.{js,jsx,ts,tsx}'],
-  darkMode: false,
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: colors.emerald,
+      },
+    },
   },
   plugins: [
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/aspect-ratio'),
-    require('@tailwindcss/typography'),
+    require("@tailwindcss/forms"),
+    require("@tailwindcss/aspect-ratio"),
+    require("@tailwindcss/typography"),
   ],
 };
