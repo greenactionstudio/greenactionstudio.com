@@ -47,7 +47,7 @@ const HomepageHero: React.FC<Props> = ({ onClick }) => (
               Speak with Our EV Charging Software Team
             </button>
           </div>
-          <div className="grid grid-cols-1 gap-16 pt-20 text-center lg:grid-cols-3 lg:gap-32">
+          <div className="grid grid-cols-1 gap-16 pt-20 text-center lg:grid-cols-3 lg:gap-24">
             {statistics.map((stat, index) => (
               <div
                 key={index}
