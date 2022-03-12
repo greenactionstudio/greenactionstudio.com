@@ -18,7 +18,7 @@ const HomepageHero: React.FC<Props> = ({ onClick }) => (
     <div className="mx-auto max-w-7xl lg:px-8">
       <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 sm:text-center lg:flex lg:items-center lg:justify-center lg:px-0">
         <div className="lg:py-24">
-          <a href="/" className="mx-auto flex h-full w-36">
+          <a href="/" className="mx-auto flex h-36 w-36">
             <span className="sr-only">Green Action Studio</span>
             <Logo fill="rgb(16 185 129)" />
           </a>

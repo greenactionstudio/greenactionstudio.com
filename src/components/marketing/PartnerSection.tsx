@@ -151,7 +151,7 @@ const PartnerSection: React.FC<Props> = ({ onDemoClick, onTechClick }) => {
             </div>
           </div>
           <div className="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0">
-            <div className="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+            <div className="px-4 md:-ml-16 lg:relative lg:m-0 lg:-ml-48 lg:h-full lg:px-0">
               <img
                 className="w-full lg:absolute lg:right-0 lg:top-1/2 lg:h-full lg:w-auto lg:max-w-none lg:-translate-y-1/2 lg:transform"
                 src={ExpandableApi}
