@@ -1,4 +1,3 @@
-import { ChevronRightIcon } from "@heroicons/react/outline";
 import React, { MouseEventHandler } from "react";
 import Dashboard from "../../images/dashboard.png";
 import ResellerTools from "../../images/reseller-tools.png";

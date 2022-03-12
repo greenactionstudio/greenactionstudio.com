@@ -1,7 +1,7 @@
 import React, { MouseEventHandler } from "react";
 import { ChatAlt2Icon } from "@heroicons/react/solid";
 
-import Logo from "../../images/logo";
+import Logo from "../../images/logo.svg";
 
 type Props = {
   onClick: MouseEventHandler<HTMLButtonElement>;
@@ -20,7 +20,7 @@ const HomepageHero: React.FC<Props> = ({ onClick }) => (
         <div className="lg:py-24">
           <a href="/" className="mx-auto flex h-36 w-36">
             <span className="sr-only">Green Action Studio</span>
-            <Logo fill="rgb(16 185 129)" />
+            <img src={Logo} alt="Green Action Studio" />
           </a>
           <h1 className="pt-6 text-2xl font-extrabold tracking-tight text-gray-100 sm:mt-5 lg:mt-6 lg:text-4xl">
             <span className="block">EV charging software</span>
