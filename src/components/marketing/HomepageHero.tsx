@@ -44,7 +44,7 @@ const HomepageHero: React.FC<Props> = ({ onClick }) => (
                 className="mr-2 hidden h-5 lg:block"
                 aria-hidden="true"
               />
-              Speak with Our EV Charging Software Team
+              Speak with Our EV Charging Team
             </button>
           </div>
           <div className="grid grid-cols-1 gap-16 pt-20 text-center lg:grid-cols-3 lg:gap-24">
