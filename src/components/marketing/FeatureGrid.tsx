@@ -69,7 +69,7 @@ export default function FeatureGrid() {
   return (
     <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:px-8 lg:pt-4">
       <h2 className="text-5xl font-extrabold tracking-tight text-white">
-        EV Charging Software Built For Tomorrow, That You Can Access Today
+        EV Charging Software Built For Tomorrow, That You Can Use Today
       </h2>
       <p className="mt-4 max-w-5xl text-lg text-gray-50">
         Our team works closely with EV drivers, station manufacturers, site
