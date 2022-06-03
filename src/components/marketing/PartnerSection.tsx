@@ -131,12 +131,12 @@ const PartnerSection: React.FC<Props> = ({ onDemoClick, onTechClick }) => {
               <p className="mt-4 text-lg text-gray-500">
                 Go to market in record time by saving over 1,000 development
                 hours with our pre-built system. We have already handled the
-                heavy lifting, which frees your team up to remained
-                laser-focused on your core business logic. All the data you
-                could ever need is available at your fingertips with our
-                real-time event webhooks and robust REST API. We understand that
-                each collaboration is unique, so we encourage you to speak with
-                our in-house development team to see how we can help!
+                heavy lifting, which frees your team up to remain laser-focused
+                on your core business logic. All the data you could ever need is
+                available at your fingertips with our real-time event webhooks
+                and robust REST API. We understand that each collaboration is
+                unique, so we encourage you to speak with our in-house
+                development team to see how we can help!
               </p>
               <div className="mt-6">
                 <button

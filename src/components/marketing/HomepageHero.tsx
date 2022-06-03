@@ -8,7 +8,7 @@ type Props = {
 };
 
 const statistics = [
-  { number: "5,000", description: "Stations Subscriptions" },
+  { number: "5,000", description: "Station Subscriptions" },
   { number: "100,000", description: "kWhs Delivered" },
   { number: "2,500", description: "Monthly Sessions" },
 ];
