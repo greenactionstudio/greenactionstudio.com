@@ -10,7 +10,7 @@ type Props = {
 const statistics = [
   { number: "5,000", description: "Station Subscriptions" },
   { number: "50,000", description: "kWhs Delivered Monthly" },
-  { number: "2,500", description: "Monthly Sessions" },
+  { number: "3,500", description: "Monthly Sessions" },
 ];
 
 const HomepageHero: React.FC<Props> = ({ onClick }) => (
